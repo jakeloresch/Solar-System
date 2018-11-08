@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		A56650DB2193BF79006D3D1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56650DA2193BF79006D3D1F /* AppDelegate.swift */; };
-		A56650DD2193BF79006D3D1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56650DC2193BF79006D3D1F /* ViewController.swift */; };
 		A56650E02193BF79006D3D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56650DE2193BF79006D3D1F /* Main.storyboard */; };
 		A56650E22193BF85006D3D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56650E12193BF85006D3D1F /* Assets.xcassets */; };
 		A56650E52193BF85006D3D1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56650E32193BF85006D3D1F /* LaunchScreen.storyboard */; };
+		A56650ED2193C312006D3D1F /* PlanetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56650EC2193C312006D3D1F /* PlanetListViewController.swift */; };
+		A56650EF2193DEB3006D3D1F /* SinglePlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56650EE2193DEB3006D3D1F /* SinglePlanetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A56650D72193BF79006D3D1F /* Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56650DA2193BF79006D3D1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A56650DC2193BF79006D3D1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A56650DF2193BF79006D3D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A56650E12193BF85006D3D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A56650E42193BF85006D3D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A56650E62193BF85006D3D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56650EC2193C312006D3D1F /* PlanetListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListViewController.swift; sourceTree = "<group>"; };
+		A56650EE2193DEB3006D3D1F /* SinglePlanetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlanetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				A56650DA2193BF79006D3D1F /* AppDelegate.swift */,
-				A56650DC2193BF79006D3D1F /* ViewController.swift */,
 				A56650DE2193BF79006D3D1F /* Main.storyboard */,
+				A56650EE2193DEB3006D3D1F /* SinglePlanetViewController.swift */,
+				A56650EC2193C312006D3D1F /* PlanetListViewController.swift */,
 				A56650E12193BF85006D3D1F /* Assets.xcassets */,
 				A56650E32193BF85006D3D1F /* LaunchScreen.storyboard */,
 				A56650E62193BF85006D3D1F /* Info.plist */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A56650DD2193BF79006D3D1F /* ViewController.swift in Sources */,
+				A56650EF2193DEB3006D3D1F /* SinglePlanetViewController.swift in Sources */,
+				A56650ED2193C312006D3D1F /* PlanetListViewController.swift in Sources */,
 				A56650DB2193BF79006D3D1F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
